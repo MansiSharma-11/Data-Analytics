@@ -197,7 +197,7 @@ AND '2022-11-30';
 Used to identify high-volume clothing purchases and seasonal demand.
 
 ```md
-/screenshots/clothing_sales.png
+C:\Users\Mansi\OneDrive\Desktop\MYSQL\Retail-Sales-Analysis-SQL-Project--P1\sales_on_date.png
 ```
 
 ---
