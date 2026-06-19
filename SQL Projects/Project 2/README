@@ -1,15 +1,9 @@
-# 📚 Library Management System | SQL Project
+# 🛍️ Retail Sales Analysis using SQL
 
-<p align="center">
-  <img src="ERD/erd.png" alt="Library Management System ERD" width="900">
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/SQL-Database-blue" />
-  <img src="https://img.shields.io/badge/PostgreSQL-RDBMS-blue" />
-  <img src="https://img.shields.io/badge/Data%20Analysis-SQL-green" />
-  <img src="https://img.shields.io/badge/Project-Portfolio-orange" />
-</p>
+![SQL](https://img.shields.io/badge/SQL-Advanced-blue?style=for-the-badge)
+![MySQL](https://img.shields.io/badge/MySQL-Database-orange?style=for-the-badge)
+![Data%20Analysis](https://img.shields.io/badge/Data-Analytics-green?style=for-the-badge)
+![GitHub](https://img.shields.io/badge/Portfolio-Project-black?style=for-the-badge)
 
 ---
 
