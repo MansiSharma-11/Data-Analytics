@@ -171,9 +171,7 @@ WHERE sale_date='2022-11-05';
 
 Transactions occurred across multiple categories indicating healthy product diversity.
 
-```md
-/screenshots/sales_on_date.png
-```
+
 
 ---
 
@@ -196,9 +194,6 @@ AND '2022-11-30';
 
 Used to identify high-volume clothing purchases and seasonal demand.
 
-```md
-C:\Users\Mansi\OneDrive\Desktop\MYSQL\Retail-Sales-Analysis-SQL-Project--P1\sales_on_date.png
-```
 
 ---
 
@@ -226,9 +221,6 @@ GROUP BY category;
 * Electronics generated the highest revenue.
 * Clothing recorded the highest order volume.
 
-```md
-/screenshots/category_performance.png
-```
 
 ---
 
@@ -259,10 +251,6 @@ WHERE total_sale > 1000;
 
 High-value purchases reveal premium customer segments.
 
-```md
-/screenshots/high_value_sales.png
-```
-
 ---
 
 # 6️⃣ Gender vs Category Analysis
@@ -280,9 +268,6 @@ GROUP BY category,gender;
 
 Evaluates purchasing patterns across customer groups.
 
-```md
-/screenshots/gender_category.png
-```
 
 ---
 
@@ -313,9 +298,6 @@ WHERE ranking=1;
 ✔ Ranking
 ✔ Aggregations
 
-```md
-/screenshots/best_month.png
-```
 
 ---
 
@@ -335,10 +317,6 @@ LIMIT 5;
 
 Identifies customers contributing most revenue.
 
-```md
-/screenshots/top_customers.png
-```
-
 ---
 
 # 9️⃣ Unique Customers per Category
@@ -355,9 +333,6 @@ GROUP BY category;
 
 Measures customer reach by category.
 
-```md
-/screenshots/unique_customers.png
-```
 
 ---
 
@@ -389,9 +364,6 @@ GROUP BY shift;
 
 Order timing analysis helps understand customer activity periods.
 
-```md
-/screenshots/shift_analysis.png
-```
 
 ---
 
@@ -440,7 +412,6 @@ Through this project I strengthened my ability to:
 ```plaintext
 Retail-Sales-Analysis/
 │
-├── screenshots/
 ├── RetailSalesAnalysis.sql
 ├── README.md
 └── dataset.csv
