@@ -4,7 +4,7 @@
 
 ### A Full-Stack SQL Project — Database Design · Automation · Business Analytics
 
-<img src="ERD\erd.png" alt="Library Management System ERD" width="850">
+<img src="SQL Projects/Project 2/erd.png" alt="Library Management System ERD" width="850">
 
 <br>
 
