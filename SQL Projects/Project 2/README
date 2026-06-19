@@ -1,198 +1,230 @@
 # 📚 Library Management System | SQL Project
 
-![SQL](https://img.shields.io/badge/SQL-Database-blue)
-![MySQL](https://img.shields.io/badge/MySQL-Project-orange)
-![Data Analysis](https://img.shields.io/badge/Data%20Analysis-SQL-green)
+<p align="center">
+  <img src="ERD/erd.png" alt="Library Management System ERD" width="900">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/SQL-Database-blue" />
+  <img src="https://img.shields.io/badge/PostgreSQL-RDBMS-blue" />
+  <img src="https://img.shields.io/badge/Data%20Analysis-SQL-green" />
+  <img src="https://img.shields.io/badge/Project-Portfolio-orange" />
+</p>
+
+---
 
 ## 📌 Project Overview
 
-The Library Management System is a SQL-based database project designed to manage library operations efficiently. This project demonstrates database design, CRUD operations, data analysis, stored procedures, and business reporting using SQL.
+The **Library Management System** is a SQL-based database project designed to streamline library operations through efficient data management and reporting.
 
-The database tracks:
+This project demonstrates practical SQL skills including database design, CRUD operations, advanced querying, stored procedures, business reporting, and data analysis.
 
-- Books and Categories
-- Library Members
-- Employees and Branches
-- Book Issue & Return Transactions
-- Rental Revenue
-- Branch Performance
+The system manages:
 
-The project showcases practical SQL skills used in real-world database management and analytics roles.
-
----
-## Database Schema
-
-![ERD Diagram](ERD/erd.png)
+* 📖 Book Inventory
+* 👥 Library Members
+* 🏢 Branch Operations
+* 👨‍💼 Employee Management
+* 🔄 Book Issue & Return Tracking
+* 💰 Rental Revenue Analysis
 
 ---
 
 ## 🎯 Business Objectives
 
-- Manage library inventory and book availability.
-- Track book issuance and returns.
-- Monitor member activity.
-- Generate revenue and branch performance reports.
-- Identify overdue books and calculate penalties.
-- Automate book issue and return processes using Stored Procedures.
+* Maintain accurate records of books, members, employees, and branches.
+* Track issued and returned books.
+* Monitor book availability in real time.
+* Generate branch performance reports.
+* Identify overdue books and active members.
+* Analyze rental revenue and book demand.
+* Automate issue and return processes using stored procedures.
 
 ---
 
-## 🗂️ Database Schema
+## 🏗️ Database Schema
 
-The system consists of the following tables:
+The database consists of six interconnected tables:
 
-| Table | Description |
-|---------|-------------|
-| Branch | Library branch information |
-| Employees | Staff details and branch assignments |
-| Members | Registered library members |
-| Books | Book inventory and availability |
-| Issued_Status | Book issue transactions |
-| Return_Status | Book return transactions |
+| Table Name    | Purpose                              |
+| ------------- | ------------------------------------ |
+| Branch        | Stores library branch information    |
+| Employees     | Maintains employee records           |
+| Members       | Contains member registration details |
+| Books         | Tracks library inventory             |
+| Issued_Status | Records issued book transactions     |
+| Return_Status | Records returned book transactions   |
 
 ### Entity Relationships
 
-- One Branch → Many Employees
-- One Member → Many Book Issues
-- One Book → Multiple Issue Transactions
-- One Issue Record → One Return Record
+* One Branch ➜ Many Employees
+* One Member ➜ Multiple Book Issues
+* One Book ➜ Multiple Transactions
+* One Issue Transaction ➜ One Return Transaction
 
 ---
 
-## 🛠️ SQL Concepts Demonstrated
+## 🧰 Tech Stack
+
+* SQL
+* PostgreSQL
+* Relational Database Management System (RDBMS)
+* Stored Procedures
+* Data Analysis
+* Git & GitHub
+
+---
+
+## 🚀 SQL Skills Demonstrated
 
 ### Database Design
-- Table Creation
-- Primary Keys
-- Foreign Keys
-- Data Integrity Constraints
+
+* CREATE DATABASE
+* CREATE TABLE
+* Primary Keys
+* Foreign Keys
+* Constraints
 
 ### Data Manipulation
-- INSERT
-- UPDATE
-- DELETE
-- SELECT
+
+* INSERT
+* UPDATE
+* DELETE
+* SELECT
 
 ### Advanced SQL
-- JOINs
-- GROUP BY
-- HAVING
-- Aggregate Functions
-- Subqueries
-- CTAS (Create Table As Select)
+
+* INNER JOIN
+* LEFT JOIN
+* GROUP BY
+* HAVING
+* Aggregate Functions
+* Subqueries
+* CTAS (Create Table As Select)
 
 ### Database Programming
-- Stored Procedures
-- Conditional Logic
-- Automated Status Updates
+
+* Stored Procedures
+* Conditional Logic
+* Business Rule Automation
 
 ---
 
-## 📊 Key Business Problems Solved
+# 📊 Business Problems Solved
 
-### 1️⃣ Book Inventory Management
+## 1. Book Inventory Management
 
-Added and managed new books within the library database.
+Added and managed book records while maintaining inventory availability.
 
-**Skills Used**
-- INSERT Statements
-- Data Validation
+### SQL Concepts
 
----
-
-### 2️⃣ Member Record Management
-
-Updated member information and maintained accurate records.
-
-**Skills Used**
-- UPDATE Statements
+* INSERT Statements
+* Data Validation
 
 ---
 
-### 3️⃣ Transaction Cleanup
+## 2. Member Information Management
 
-Removed incorrect or obsolete issue records.
+Updated and maintained member records for accurate library operations.
 
-**Skills Used**
-- DELETE Statements
+### SQL Concepts
 
----
-
-### 4️⃣ Employee Performance Tracking
-
-Retrieved books issued by specific employees.
-
-**Skills Used**
-- Filtering
-- WHERE Clauses
+* UPDATE Statements
 
 ---
 
-### 5️⃣ Active Member Analysis
+## 3. Transaction Cleanup
 
-Identified members who issued multiple books.
+Removed obsolete or incorrect issue records.
 
-**Skills Used**
-- GROUP BY
-- HAVING
-- COUNT()
+### SQL Concepts
 
----
-
-### 6️⃣ Book Demand Analysis
-
-Created summary tables to identify the most frequently issued books.
-
-**Skills Used**
-- CTAS
-- Aggregations
+* DELETE Statements
 
 ---
 
-### 7️⃣ Revenue Analysis
+## 4. Employee Issue Tracking
 
-Calculated rental income generated by each book category.
+Retrieved books issued by specific employees to evaluate activity.
 
-**Skills Used**
-- SUM()
-- GROUP BY
-- Business Reporting
+### SQL Concepts
 
----
-
-### 8️⃣ Overdue Book Monitoring
-
-Detected members with overdue books beyond the 30-day borrowing period.
-
-**Skills Used**
-- Date Functions
-- JOINs
-- Business Rules
+* Filtering
+* WHERE Clauses
 
 ---
 
-### 9️⃣ Branch Performance Reporting
+## 5. Active Member Analysis
 
-Generated reports showing:
+Identified members who borrowed multiple books.
 
-- Total Books Issued
-- Books Returned
-- Revenue Generated
+### SQL Concepts
 
-**Skills Used**
-- Multi-table JOINs
-- Aggregations
-- Reporting
+* GROUP BY
+* HAVING
+* COUNT()
 
 ---
 
-### 🔟 Employee Productivity Analysis
+## 6. Book Demand Analysis
 
-Identified top-performing employees based on issue transactions processed.
+Created summary tables to identify frequently issued books.
 
-**Skills Used**
-- Ranking Analysis
-- Aggregations
+### SQL Concepts
+
+* CTAS
+* Aggregations
+
+---
+
+## 7. Revenue Analysis by Category
+
+Calculated rental revenue generated by each book category.
+
+### SQL Concepts
+
+* SUM()
+* GROUP BY
+* Revenue Reporting
+
+---
+
+## 8. Overdue Book Detection
+
+Identified books that exceeded the allowed borrowing period.
+
+### SQL Concepts
+
+* Date Functions
+* JOIN Operations
+* Business Logic
+
+---
+
+## 9. Branch Performance Reporting
+
+Generated branch-level performance reports showing:
+
+* Total Books Issued
+* Total Books Returned
+* Total Revenue Generated
+
+### SQL Concepts
+
+* Multi-table JOINs
+* Aggregations
+* Reporting Queries
+
+---
+
+## 10. Employee Productivity Analysis
+
+Identified employees processing the highest number of book issues.
+
+### SQL Concepts
+
+* Aggregations
+* Ranking Analysis
 
 ---
 
@@ -202,56 +234,89 @@ Identified top-performing employees based on issue transactions processed.
 
 Automates book issuance by:
 
-- Checking availability
-- Creating issue records
-- Updating book status
+* Verifying availability
+* Recording issue transactions
+* Updating inventory status
 
 ### Return Book Procedure
 
-Automates book returns by:
+Automates book return processing by:
 
-- Recording return transactions
-- Updating book availability
-- Maintaining transaction history
+* Recording return transactions
+* Updating inventory status
+* Maintaining transaction history
 
 ---
 
 ## 📈 Reports Generated
 
-### Branch Performance Report
+### 📚 Book Demand Report
 
-Tracks:
+Analyzes the most frequently borrowed books.
 
-- Books Issued
-- Books Returned
-- Revenue Generated
+### 👥 Active Members Report
 
-### Active Members Report
+Identifies members who borrowed books within the last two months.
 
-Identifies members who borrowed books in the last two months.
+### ⏰ Overdue Books Report
 
-### Overdue Books Report
+Tracks overdue books and pending returns.
 
-Highlights members with overdue books and pending returns.
+### 🏢 Branch Performance Report
 
-### Book Demand Report
+Measures branch efficiency using:
 
-Ranks books based on issue frequency.
+* Books Issued
+* Books Returned
+* Revenue Generated
+
+### 👨‍💼 Employee Performance Report
+
+Ranks employees by the number of issue transactions processed.
 
 ---
 
-## 🚀 Skills Demonstrated
+## 📸 Project Screenshots
 
-- SQL
-- MySQL
-- Database Design
-- Data Cleaning
-- Data Analysis
-- Business Reporting
-- Query Optimization
-- Stored Procedures
-- Relational Databases
-- Problem Solving
+### Database ERD
+
+<p align="center">
+  <img src="ERD/erd.png" width="900">
+</p>
+
+### Branch Performance Report
+
+<p align="center">
+  <img src="Screenshots/branch_report.png" width="900">
+</p>
+
+### Overdue Books Analysis
+
+<p align="center">
+  <img src="Screenshots/overdue_books.png" width="900">
+</p>
+
+### Employee Performance Report
+
+<p align="center">
+  <img src="Screenshots/top_employees.png" width="900">
+</p>
+
+---
+
+## 🏆 Project Highlights
+
+✔ Designed a relational database with 6 interconnected tables
+
+✔ Implemented complete CRUD operations
+
+✔ Created stored procedures for automated workflows
+
+✔ Built analytical reports for business insights
+
+✔ Applied advanced SQL concepts including JOINs, GROUP BY, HAVING, CTAS, and Aggregations
+
+✔ Solved real-world library management challenges using SQL
 
 ---
 
@@ -260,9 +325,16 @@ Ranks books based on issue frequency.
 ```text
 Library-Management-System/
 │
-├── librarymanagementsystem.sql
 ├── README.md
-└── ERD_Diagram.png
+├── librarymanagementsystem.sql
+│
+├── ERD/
+│   └── erd.png
+│
+└── Screenshots/
+    ├── branch_report.png
+    ├── overdue_books.png
+    └── top_employees.png
 ```
 
 ---
@@ -271,26 +343,27 @@ Library-Management-System/
 
 Through this project, I gained hands-on experience in:
 
-- Designing relational databases
-- Managing transactional data
-- Writing complex SQL queries
-- Building business reports
-- Creating reusable stored procedures
-- Solving real-world data problems using SQL
+* Relational Database Design
+* Data Modeling
+* Query Optimization
+* Business Reporting
+* Stored Procedure Development
+* Data Analysis using SQL
+* Managing Transactional Data
 
 ---
 
 ## 👩‍💻 Author
 
-**Mansi Sharma**
+### Mansi Sharma
 
-Aspiring Data Analyst passionate about SQL, Data Analytics, Excel, Power BI, and Business Intelligence,Cyber Security Enthusiast.
+Aspiring Data Analyst | SQL Enthusiast | Excel & Power BI Learner | Cyber Security Enthusiast
 
 ### Connect With Me
 
-- LinkedIn: *https://www.linkedin.com/in/mansi-sharma-3894a8339/*
-- GitHub: *https://github.com/MansiSharma11*
+* LinkedIn: https://www.linkedin.com/in/mansi-sharma-3894a8339/
+* GitHub: https://github.com/MansiSharma11
 
 ---
 
-⭐ If you found this project helpful, consider giving it a star.
+⭐ If you found this project useful, consider giving it a star.
