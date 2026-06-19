@@ -4,7 +4,7 @@
 
 ### A Full-Stack SQL Project — Database Design · Automation · Business Analytics
 
-<img src="C:\Users\Mansi\OneDrive\Desktop\MYSQL\Library-System-Management---P2\ERD\erd.png" alt="Library Management System ERD" width="850">
+<img src="ERD\erd.png" alt="Library Management System ERD" width="850">
 
 <br>
 
