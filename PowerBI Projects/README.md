@@ -215,7 +215,7 @@ Interactive filters and visual analytics enable tourism organizations, investors
 ### 🏠 Overview Dashboard
 
 ```markdown
-![Overview Dashboard](Overview.png)
+![Overview Dashboard](images/Overview.png)
 ```
 
 ---
@@ -223,7 +223,7 @@ Interactive filters and visual analytics enable tourism organizations, investors
 ### 📈 Market Share & Ratings Dashboard
 
 ```markdown
-![Overall Ratings Dashboard](Overall_Ratings.png)
+![Overall Ratings Dashboard](images/Overall_Ratings.png)
 ```
 
 ---
@@ -231,7 +231,7 @@ Interactive filters and visual analytics enable tourism organizations, investors
 ### ⭐ Detailed Ratings Dashboard
 
 ```markdown
-![Detailed Ratings Dashboard](Detailed_Ratings.png)
+![Detailed Ratings Dashboard](images/Detailed_Ratings.png)
 ```
 
 ---
@@ -239,7 +239,7 @@ Interactive filters and visual analytics enable tourism organizations, investors
 ### 📝 Reviews & Trust Dashboard
 
 ```markdown
-![Reviews Dashboard](Reviews_Snapshot.png)
+![Reviews Dashboard](images/Reviews_Snapshot.png)
 ```
 
 ---
