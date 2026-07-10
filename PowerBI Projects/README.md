@@ -214,32 +214,30 @@ Interactive filters and visual analytics enable tourism organizations, investors
 
 ### 🏠 Overview Dashboard
 
-```markdown
 ![Overview Dashboard](images/Overview.png)
-
+```
 
 ---
 
 ### 📈 Market Share & Ratings Dashboard
 
-```markdown
 ![Overall Ratings Dashboard](images/Overall_Ratings.png)
-
+```
 
 ---
 
 ### ⭐ Detailed Ratings Dashboard
 
-```markdown
 ![Detailed Ratings Dashboard](images/Detailed_Ratings.png)
-
+```
 
 ---
 
 ### 📝 Reviews & Trust Dashboard
 
-<img src="images/Reviews.png" alt="Library Management System ERD" width="850">
-
+```markdown
+![Reviews Dashboard](images/Reviews_Snapshot.png)
+```
 
 ---
 
