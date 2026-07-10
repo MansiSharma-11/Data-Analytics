@@ -215,29 +215,24 @@ Interactive filters and visual analytics enable tourism organizations, investors
 ### 🏠 Overview Dashboard
 
 ![Overview Dashboard](images/Overview.png)
-```
 
 ---
 
 ### 📈 Market Share & Ratings Dashboard
 
 ![Overall Ratings Dashboard](images/Overall_Ratings.png)
-```
 
 ---
 
 ### ⭐ Detailed Ratings Dashboard
 
 ![Detailed Ratings Dashboard](images/Detailed_Ratings.png)
-```
 
 ---
 
 ### 📝 Reviews & Trust Dashboard
 
-```markdown
 ![Reviews Dashboard](images/Reviews.png)
-```
 
 ---
 
