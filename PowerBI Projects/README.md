@@ -236,7 +236,7 @@ Interactive filters and visual analytics enable tourism organizations, investors
 ### 📝 Reviews & Trust Dashboard
 
 ```markdown
-![Reviews Dashboard](images/Reviews_Snapshot.png)
+![Reviews Dashboard](images/Reviews.png)
 ```
 
 ---
