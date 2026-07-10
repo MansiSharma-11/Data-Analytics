@@ -238,7 +238,7 @@ Interactive filters and visual analytics enable tourism organizations, investors
 
 ### 📝 Reviews & Trust Dashboard
 
-<img src="image/Reviews.png" alt="Library Management System ERD" width="850">
+<img src="images/Reviews.png" alt="Library Management System ERD" width="850">
 
 
 ---
