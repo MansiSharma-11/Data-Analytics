@@ -71,7 +71,7 @@ The project concludes with an interactive Excel dashboard for exploring these in
 
 ---
 
-## 3️⃣ Top Skills by Job Role
+## 3️⃣ Skill Job Analysis
 
 ![Top Skills](Analysis/Skill_Job_Analysis.png)
 
@@ -95,7 +95,7 @@ For example, Data Engineer roles frequently require:
 
 ---
 
-## 4️⃣ Highest Paying Technical Skills
+## 4️⃣ Skill Salary Analysis
 
 ![Skill Salary](Analysis/Skill_Salary_Analysis.png)
 
