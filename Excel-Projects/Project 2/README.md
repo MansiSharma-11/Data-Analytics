@@ -47,7 +47,7 @@ The project concludes with an interactive Excel dashboard for exploring these in
 
 ## 1️⃣ Salary Comparison by Region
 
-![Salary Analysis](Salary_Analysis.png)
+![Salary Analysis](Analysis/Salary_Analysis.png)
 
 ### Insights
 
@@ -60,7 +60,7 @@ The project concludes with an interactive Excel dashboard for exploring these in
 
 ## 2️⃣ Skills vs Salary Analysis
 
-![Skills vs Salary](Salary_VS_Skills.png)
+![Skills vs Salary](Analysis/Salary_VS_Skills.png)
 
 ### Insights
 
@@ -73,7 +73,7 @@ The project concludes with an interactive Excel dashboard for exploring these in
 
 ## 3️⃣ Top Skills by Job Role
 
-![Top Skills](Skill_Job_Analysis.png)
+![Top Skills](Analysis/Skill_Job_Analysis.png)
 
 ### Insights
 
@@ -97,7 +97,7 @@ For example, Data Engineer roles frequently require:
 
 ## 4️⃣ Highest Paying Technical Skills
 
-![Skill Salary](Skill_Salary_Analysis.png)
+![Skill Salary](Analysis/Skill_Salary_Analysis.png)
 
 ### Insights
 
