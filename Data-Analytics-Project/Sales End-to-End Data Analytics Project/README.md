@@ -108,7 +108,7 @@ The dashboard highlights key findings such as:
 
 # 📷 Dashboard Preview
 
-![Executive Dashboard](Dashboard.png)
+![Dashboard](Images/Dashboard.png)
 
 ```
 images/
