@@ -108,17 +108,12 @@ The dashboard highlights key findings such as:
 
 # 📷 Dashboard Preview
 
-> *(Add screenshots here)*
+![Executive Dashboard](Dashboard.png)
 
 ```
 images/
 │
-├── Executive_Overview.png
-├── Regional_Analysis.png
-├── Product_Insights.png
-└── Customer_Analysis.png
-```
-
+├── Dashboard.png
 ---
 
 # 📁 Project Structure
@@ -130,13 +125,7 @@ Sales-Performance-Dashboard/
 ├── Cleaned_Data.csv
 ├── README.md
 ├── Images/
-│   ├── Executive_Overview.png
-│   ├── Regional_Analysis.png
-│   ├── Product_Analysis.png
-│   └── Customer_Insights.png
-│
-└── Assets/
-    └── Dashboard_Theme.json
+│   ├── Dashboard.png
 ```
 
 ---
